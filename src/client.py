@@ -12,4 +12,4 @@ response = requests.post(data = data_to_be_sent, url=url)
 if response.status_code == 200:
     print(response.text)
 else:
-    print(f'Exiting with an error code {response.status_code}')
+    print(f'Exiting with an error code : {response.status_code}')
