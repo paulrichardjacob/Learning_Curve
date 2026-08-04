@@ -8,3 +8,13 @@ matplotlib==3.9.2
 seaborn==0.13.2
 streamlit==1.39.0
 joblib==1.4.2
+openai>=1.30.0
+chromadb>=0.5.0
+pypdf>=4.0.0
+python-dotenv>=1.0.0
+ipykernel
+langchain
+langchain-openai
+langchain-community
+langchain-chroma
+langchain-text-splitters

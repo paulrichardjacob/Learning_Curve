@@ -1,0 +1,6 @@
+.env
+chroma_db/
+chroma_db_playground/
+chroma_db_langchain/
+__pycache__/
+.ipynb_checkpoints/
