@@ -19,3 +19,10 @@ langchain-community
 langchain-chroma
 langchain-text-splitters
 torch
+torchvision
+torchmetrics
+torchinfo
+fancyimpute
+statsmodels
+flask
+requests

@@ -4,14 +4,15 @@ app = Flask(__name__)
 
 @app.route('/')
 def pga_details():
-    return 'Total Memebers is 30'
+    return 'Total Members is 30'
 
 @app.route('/absent')
 def absentees():
-    return '5 Member are absent'
+    return '5 Members are absent'
 
 @app.route('/present')
 def present():
-    return '25 Member are present'
+    return '25 Members are present'
 
-app.run(debug = True)
+if __name__ == '__main__':
+    app.run(debug=True)
